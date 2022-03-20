@@ -2,7 +2,7 @@ FROM tomcat:8.0-alpine
 
 LABEL maintainer=”tomjoy.pala@gmail.com”
 
-COPY WebAppCal-1.3.5.war /usr/local/tomcat/webapps/
+ADD WebAppCal-1.3.5.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
