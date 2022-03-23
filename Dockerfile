@@ -1,4 +1,4 @@
-FROM centos:7.5
+FROM centos7.9.2009
 
 MAINTAINER tomjoy.pala@gmail.com
 
