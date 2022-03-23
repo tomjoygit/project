@@ -1,5 +1,4 @@
-FROM centos7.9.2009
-
+FROM centos7
 MAINTAINER tomjoy.pala@gmail.com
 
 RUN mkdir /opt/tomcat/
